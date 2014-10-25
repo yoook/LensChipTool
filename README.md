@@ -14,4 +14,4 @@ At the moment, this version is quite limited as it only:
 - is command line only
 - probably is Linux only (I haven't tried to compile elsewhere. Gphoto2 needs to be supported on the target platform)
 
-So basic functionality is available for all that _I_ need ;-) but feature requests are welcome and I will see what I can do
+So basic functionality is available for all that *I* need ;-) but feature requests are welcome and I will see what I can do

@@ -5,14 +5,9 @@
 research/
 docs/
 tmp/
-clct
-lct
-lcttest
-tmp
+Wireshark-dumps/
 
-camera.h
-camera.c
-tmp-old
-t_*
-unbenannt.c
+.anjuta*
+*.anjuta
 
+freezer.c

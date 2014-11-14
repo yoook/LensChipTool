@@ -2,6 +2,7 @@
 *.JPG
 *.o
 *~
+*.txt
 research/
 docs/
 tmp/

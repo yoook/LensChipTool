@@ -417,6 +417,16 @@ void error_handler_exit(int errcode, const char* message)
 void print_usage()
 {       // TODO: change text to useful
     printf("Usage:\n"
-            " one day this might be a useful usage message\n\n");
+"lenschiptool [-v <verbosity>] [-f] [-S|-D] [-F <focus micro adjust>] [-a <max aperture>] [-l <focal length>] [-?]\n\n"
+"  -v    set level of verbosity. <verbosity> = 0 ... 3\n"
+"  -f    force. omit or ignore all sanity checks\n"
+"  -S    use Shutter instead of DOF preview\n"
+"  -D    use DOF preview instead of shutter (if possible)\n"
+"  -F    set focus micro adjust (limits given by your chip)\n"
+"  -a    set maximum aperture (limits given by your chip)\n"
+"  -l    set focal length (limits given by your chip)\n"
+"  -?    print this help message\n\n"
+"At the moment, only EMF chip is supported, so no chip selection is available/required\n"
+);
     exit(0);
 }

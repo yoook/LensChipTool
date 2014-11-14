@@ -73,7 +73,6 @@ int _emf_write_max_aperture(Camera *ca, int maxaperture, GPContext *cxt)
 
     if (verbosity>=2) printf( "set max aperture\n");
     set_aperture(ca, maxaperture, cxt); DOF_or_shutter(ca, -1, cxt);   //set max_aperture
-    if (get_max_aperture(ca, cxt) != 10) { fprintf(stderr, "programming mode was lost\n"); return 1; }
 
     _emf_close_programmingmode(ca, cxt);
     if (get_max_aperture(ca, cxt) == 10)
